@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+// Cores
+$azul-escuro: #3F8EBF;
+$azul-claro: #52BDFF;
+$branco-off: #FFFFF0;
+
+// Fontes
+$titulo-font: 'Merriweather Sans', sans-serif;
+$texto-font: 'Nunito', sans-serif;
+
+// Cor padrão dos textos
+$cor-texto: #083551;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=Nunito:wght@400&display=swap');
+
+body {
+    font-family: $texto-font;
+    font-weight: 400;
+    color: $cor-texto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $titulo-font;
+    font-weight: 800;
+    color: $cor-texto;
+}
